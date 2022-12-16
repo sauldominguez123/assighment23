@@ -1,5 +1,10 @@
 function hello(name) {
     alert("hello " + name);
 }
-hello("student");
-hello("I am a virus");
+
+function secretMessage(message) {
+    console.log("The secret message is " + message);
+}
+
+hello("Can you find the secret message");
+secretMessage("I like music");
